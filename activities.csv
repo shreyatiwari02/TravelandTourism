@@ -1,0 +1,123 @@
+ID,name,type,location,ratings
+A006,Hampta Pass Trek,Adventure,Manali,4.9
+A007,White Water Rafting,Adventure,Rishikesh,4.8
+A008,Parasailing,Adventure,Goa,4.7
+A009,Scuba Diving,Adventure,Andaman,4.9
+A010,Chadar Trek,Adventure,Ladakh,4.9
+A011,Varanasi Ganga Aarti,Spiritual,Varanasi,4.9
+A012,Rishikesh Yoga Retreat,Spiritual,Rishikesh,4.8
+A014,Tirupati Darshan,Spiritual,Tirupati,4.8
+A015,Haridwar Kumbh Mela,Spiritual,Haridwar,4.7
+A016,Kerala Backwater Cruise,Nature,Alleppey,4.7
+A017,Kaziranga National Park Safari,Nature,Kaziranga,4.8
+A018,Shimla Nature Walk,Nature,Shimla,4.6
+A019,Munnar Tea Gardens,Nature,Munnar,4.7
+A020,Jim Corbett National Park Safari,Nature,Jim Corbett,4.7
+A021,Old Delhi Food Tour,Culinary,Delhi,4.8
+A022,Goa Seafood Tour,Culinary,Goa,4.7
+A023,Hyderabad Biryani Tour,Culinary,Hyderabad,4.6
+A024,Lucknow Nawabi Cuisine Tour,Culinary,Lucknow,4.8
+A025,Mumbai Street Food Tour,Culinary,Mumbai,4.6
+A026,Jaipur City Tour,Cultural,Jaipur,4.7
+A027,Kolkata Heritage Walk,Cultural,Kolkata,4.6
+A028,Chennai Temple Tour,Cultural,Chennai,4.5
+A029,Pondicherry French Quarter Tour,Cultural,Pondicherry,4.7
+A030,Coorg Coffee Plantation Tour,Culinary,Coorg,4.8
+A031,Leh Ladakh Adventure,Adventure,Leh,4.9
+A032,Andaman Island Hopping,Adventure,Andaman,4.9
+A033,Sikkim Monastery Tour,Cultural,Sikkim,4.7
+A034,Darjeeling Tea Estate Tour,Cultural,Darjeeling,4.6
+A035,Ranthambore National Park Safari,Adventure,Ranthambore,4.8
+A036,Jaisalmer Desert Safari,Adventure,Jaisalmer,4.8
+A038,Bikaner Camel Festival,Cultural,Bikaner,4.6
+A039,Gokarna Beach Trek,Adventure,Gokarna,4.7
+A040,Nainital Boat Ride,Cultural,Nainital,4.6
+A041,Mahabaleshwar Strawberry Farm Tour,Cultural,Mahabaleshwar,4.6
+A043,Ajanta and Ellora Caves,Cultural,Aurangabad,4.7
+A044,Hampi Ruins Exploration,Cultural,Hampi,4.9
+A045,Kumarakom Bird Sanctuary,Nature,Kumarakom,4.7
+A046,Bandhavgarh National Park,Nature,Bandhavgarh,4.8
+A047,Dharamshala Tibetan Culture Tour,Cultural,Dharamshala,4.8
+A049,Puri Jagannath Temple,Spiritual,Puri,4.8
+A051,Mumbai Bollywood Tour,Cultural,Mumbai,4.7
+A052,Bangalore Tech Tour,Cultural,Bangalore,4.5
+A053,Hyderabad Ramoji Film City,Cultural,Hyderabad,4.8
+A054,Panchgani Table Land Tour,Cultural,Panchgani,4.5
+A055,Ooty Lake Boating,Nature,Ooty,4.6
+A056,Alleppey Houseboat Stay,Nature,Alleppey,4.8
+A057,Lonavala Tiger’s Leap Trek,Adventure,Lonavala,4.7
+A058,Nubra Valley Adventure,Adventure,Ladakh,4.9
+A059,Mount Abu Trek,Adventure,Mount Abu,4.7
+A061,Thar Desert Camel Ride,Adventure,Jaisalmer,4.7
+A062,Nehru Trophy Boat Race,Nature,Alleppey,4.8
+A064,Pushkar Camel Fair,Cultural,Pushkar,4.7
+A066,Spiti Valley Road Trip,Adventure,Spiti Valley,4.9
+A067,Luxury Houseboat Stay,Luxury,Kumarakom,4.9
+A068,Jodhpur Heritage Walk,Cultural,Jodhpur,4.7
+A069,Chennai Marina Beach Walk,Nature,Chennai,4.6
+A070,Kanyakumari Sunrise View,Nature,Kanyakumari,4.7
+A072,Nashik Wine Tasting Tour,Culinary,Nashik,4.7
+A074,Andaman Coral Reef Exploration,Nature,Andaman,4.9
+A075,Shillong Waterfalls Tour,Nature,Shillong,4.6
+A076,Lakshadweep Scuba Diving,Adventure,Lakshadweep,4.9
+A077,Delhi Chandni Chowk Shopping,Cultural,Delhi,4.6
+A078,Kochi Spice Market Tour,Culinary,Kochi,4.7
+A079,Udupi Sri Krishna Temple,Spiritual,Udupi,4.6
+A080,Shillong Living Root Bridges,Nature,Shillong,4.9
+A082,Bhutan Paro Taktsang Trek,Spiritual,Paro,4.9
+A083,Sundarbans Tiger Safari,Nature,Sundarbans,4.9
+A084,Kerala Ayurveda Retreat,Wellness,Kollam,4.9
+A085,Jaipur Literature Festival,Cultural,Jaipur,4.8
+A086,Mount Everest Base Camp Trek,Adventure,Kathmandu,4.9
+A088,Bishnupur Terracotta Temples,Cultural,Bishnupur,4.7
+A090,Leh Nubra Valley Camel Ride,Adventure,Leh,4.7
+A091,Coorg Spice Plantation Tour,Culinary,Coorg,4.8
+A092,Sri Lanka Tea Trail Walk,Nature,Kandy,4.7
+A093,Hampi Music Festival,Cultural,Hampi,4.8
+A094,Alleppey Ayurveda Massage,Wellness,Alleppey,4.9
+A095,Rann of Kutch Festival,Cultural,Rann of Kutch,4.8
+A096,Gangtok Monastery Tour,Spiritual,Gangtok,4.7
+A097,Amarnath Yatra,Spiritual,Kashmir,4.9
+A098,Tiger's Nest Monastery Trek,Spiritual,Paro,4.9
+A099,Kedarnath Trek,Spiritual,Kedarnath,4.9
+A100,Mysore Dasara Festival,Cultural,Mysore,4.8
+A101,Bangalore Nandi Hills Trek,Adventure,Bangalore,4.7
+A102,Andaman Snorkeling,Adventure,Andaman,4.8
+A103,Varkala Beach Cliff Walk,Nature,Varkala,4.6
+A104,Jaipur Elephant Ride,Adventure,Jaipur,4.6
+A107,Mysore Sandalwood Factory Tour,Cultural,Mysore,4.5
+A109,Horsley Hills Nature Trek,Nature,Horsley Hills,4.6
+A110,Chikmagalur Coffee Plantation Tour,Culinary,Chikmagalur,4.8
+A112,Pelling Skywalk,Nature,Pelling,4.8
+A114,Kanha National Park Safari,Nature,Kanha,4.8
+A115,Nagaland Hornbill Festival,Cultural,Kohima,4.9
+A116,Lakshadweep Island Hopping,Nature,Lakshadweep,4.8
+A117,Sundarbans Boat Safari,Nature,Sundarbans,4.9
+A118,Kolkata Durga Puja Festival,Cultural,Kolkata,4.9
+A119,Andaman Island Camping,Adventure,Andaman,4.8
+A120,Kullu Dussehra Festival,Cultural,Kullu,4.8
+A121,Coorg Waterfall Trek,Adventure,Coorg,4.7
+A122,Sundarbans Bird Watching,Nature,Sundarbans,4.8
+A123,Rann Utsav Cultural Festival,Cultural,Rann of Kutch,4.9
+A124,Dibrugarh Tea Tour,Culinary,Dibrugarh,4.7
+A125,Manali Solang Valley Adventure,Adventure,Manali,4.8
+A127,Hampi Rock Climbing,Adventure,Hampi,4.7
+A128,Nalanda University Ruins,Cultural,Nalanda,4.6
+A129,Pangong Lake Camp Stay,Nature,Ladakh,4.9
+A130,Dudhsagar Waterfall Trek,Adventure,Goa,4.7
+A131,Assam Kaziranga Rhino Safari,Nature,Kaziranga,4.9
+A132,Shimla Ice Skating Adventure,Adventure,Shimla,4.8
+A134,Spiti Valley Monastery Tour,Spiritual,Spiti Valley,4.8
+A136,Shillong Root Bridge Trek,Nature,Shillong,4.8
+A137,Pondicherry Beach Walk,Nature,Pondicherry,4.7
+A138,Goa Christmas Carnival,Cultural,Goa,4.8
+A140,Nanda Devi Trek,Adventure,Uttarakhand,4.9
+A141,Dandeli White Water Rafting,Adventure,Dandeli,4.8
+A142,Tawang Snow Adventure,Adventure,Tawang,4.9
+A144,Jodhpur Flying Fox Adventure,Adventure,Jodhpur,4.7
+A145,Udaipur Boat Ride on Lake Pichola,Nature,Udaipur,4.8
+A146,Khajuraho Dance Festival,Cultural,Khajuraho,4.8
+A147,Majuli Island Tour,Nature,Majuli,4.7
+A148,Andaman Bioluminescent Beach Walk,Nature,Andaman,4.9
+A149,Goa Full Moon Party,Adventure,Goa,4.7
+A150,Bangalore Wine Tasting Tour,Culinary,Bangalore,4.7

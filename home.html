@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .slider {
+            position: relative;
+            overflow: hidden;
+            height: 300px; /* Adjust height as needed */
+        }
+        .slides {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 bg-opacity-75 absolute top-0 left-0 right-0 z-50 flex items-center justify-between p-6">
+        <div class="text-white font-bold text-xl">Artemis</div>
+        <ul class="flex space-x-8 text-white">
+            <li><a href="{{ url_for('home') }}" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#footer" class="hover:text-gray-300">About Us</a></li>
+            <li class="relative group">
+                <a href="#" class="hover:text-gray-300">Recommendations</a>
+                <ul class="absolute left-0 hidden mt-2 bg-gray-800 rounded-lg shadow-lg group-hover:block w-[100px] top-[10px]">
+                    <li><a href="{{ url_for('Attraction') }}" class="block px-4 py-2 hover:bg-gray-700">Attraction</a></li>
+                    <li><a href="{{ url_for('Activities') }}" class="block px-4 py-2 hover:bg-gray-700">Activities</a></li>
+                    <li><a href="{{ url_for('Dining') }}" class="block px-4 py-2 hover:bg-gray-700">Dining</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="{{ url_for('contactus') }}" class="bg-orange-500 text-white px-4 py-2 rounded-lg">Contact Us</a>
+    </nav>
+
+    <!-- Hero/Banner Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2Fd%2Ff%2F1%2F7%2F8%2F9%2Fdf17892065becdd814feab059c5530b48b2fb6a4.jpg&w=4096&q=100');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="text-center text-white">
+                <h1 class="text-5xl font-bold mb-4">It is Better to Travel Well Than to Arrive</h1>
+                <a href="https://youtu.be/h4CN932_juY" class="inline-block px-6 py-3 bg-white text-black rounded-full text-lg font-semibold mb-2">
+                    <svg class="inline-block w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-6.5-3.75A1 1 0 007 8.25v7.5a1 1 0 001.252.937l6.5-3.75a1 1 0 000-1.687z"/>
+                    </svg>
+                    Watch Video
+                </a>
+            </div>
+        </div>
+    </section>
+
+ <!-- Image Slider Section -->
+<section class="py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Explore Our Top Destinations</h2>
+    <div class="slider mx-auto max-w-4xl">
+        <div class="slides active">
+            <div class="slide-container flex justify-center items-center h-full">
+                <img src="https://i.pinimg.com/736x/5a/a3/48/5aa34813102e9a6a7812224ff18cb0d5.jpg" alt="Taj Mahal" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://media.gettyimages.com/id/171144538/photo/goa-palolem.jpg?s=612x612&w=0&k=20&c=xr9ohNzBb0pLxh2QmBUZQT_6S5f4GfzjWUdhK4fff-k=" alt="Beaches of Goa" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://t4.ftcdn.net/jpg/01/55/10/49/240_F_155104949_fgqEnZX0Iud2sqc7FcabLsliAaNpfHJA.jpg" alt="Culture of Sikkim" class="w-1/3 h-full object-cover rounded-lg mx-2">
+            </div>
+        </div>
+        <div class="slides">
+            <div class="slide-container flex justify-center items-center h-full">
+                <img src="https://t4.ftcdn.net/jpg/01/55/10/49/240_F_155104949_fgqEnZX0Iud2sqc7FcabLsliAaNpfHJA.jpg" alt="Culture of Sikkim" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://i.pinimg.com/736x/5a/a3/48/5aa34813102e9a6a7812224ff18cb0d5.jpg" alt="Taj Mahal" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://media.gettyimages.com/id/171144538/photo/goa-palolem.jpg?s=612x612&w=0&k=20&c=xr9ohNzBb0pLxh2QmBUZQT_6S5f4GfzjWUdhK4fff-k=" alt="Beaches of Goa" class="w-1/3 h-full object-cover rounded-lg mx-2">
+            </div>
+        </div>
+        <div class="slides">
+            <div class="slide-container flex justify-center items-center h-full">
+                <img src="https://media.gettyimages.com/id/171144538/photo/goa-palolem.jpg?s=612x612&w=0&k=20&c=xr9ohNzBb0pLxh2QmBUZQT_6S5f4GfzjWUdhK4fff-k=" alt="Beaches of Goa" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://t4.ftcdn.net/jpg/01/55/10/49/240_F_155104949_fgqEnZX0Iud2sqc7FcabLsliAaNpfHJA.jpg" alt="Culture of Sikkim" class="w-1/3 h-full object-cover rounded-lg mx-2">
+                <img src="https://i.pinimg.com/736x/5a/a3/48/5aa34813102e9a6a7812224ff18cb0d5.jpg" alt="Taj Mahal" class="w-1/3 h-full object-cover rounded-lg mx-2">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slides');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    </script>
+
+ <!-- About Us Section -->
+<section class="container mx-auto py-16 px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">Explore All Corners of India With Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <img src="https://steemitimages.com/DQmRPecpLAX2gTszqaoBzqkj9iivdNEEn9j3Yz7bRxpwB3x/16784907508_d40192ffca_b.jpg" alt="Beautiful Landscape" class="rounded-lg shadow-lg">
+        </div>
+        <div>
+            <p class="text-xl text-gray-700 mb-6">
+                Breathe in the fresh air of the tea gardens and witness nature’s grandeur as the sun rises over majestic valleys. This enchanting experience is a perfect backdrop for adventure seekers and peace lovers alike, inviting you to explore the lush greenery and vibrant culture that surrounds you.
+            </p>
+        </div>
+        <div>
+            <p class="text-xl text-gray-700 mb-6">
+                Escape to paradise where the sun kisses the shore. Relax, recharge, and let the gentle waves carry your worries away in this coastal haven. Indulge in the local flavors, immerse yourself in the lively markets, and enjoy the warm hospitality that will make your journey unforgettable.
+            </p>
+        </div>
+        <div>
+            <img src="https://media.istockphoto.com/id/469852152/photo/arambol-beach-goa.jpg?s=612x612&w=0&k=20&c=PK7nClOmOvKi4JxDumL5-YI8lkX53b9vHF75nvExDX4=" alt="Travel Experiences" class="rounded-lg shadow-lg">
+        </div>
+    </div>
+</section>
+
+
+
+   <!-- What We Serve Section -->
+<section class="py-12 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">We Provide Top Destinations</h2>
+        <p class="text-gray-700 mb-8">Explore breathtaking landscapes, vibrant cultures, and unforgettable experiences across the globe. Our curated selection of top destinations ensures that every traveler finds the perfect getaway.</p>
+
+        <div class="flex flex-wrap justify-center space-x-4">
+            <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mb-6">
+                <img class="w-full" src="https://media.gettyimages.com/id/171144538/photo/goa-palolem.jpg?s=612x612&w=0&k=20&c=xr9ohNzBb0pLxh2QmBUZQT_6S5f4GfzjWUdhK4fff-k=">
+                <div class="p-4">
+                    <h3 class="font-bold text-xl mb-2">Experience the beaches of Goa</h3>
+                    <p class="text-gray-600">Relax on the sandy shores and enjoy the vibrant nightlife that Goa has to offer.</p>
+                </div>
+            </div>
+            <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mb-6">
+                <img class="w-full" src="https://t4.ftcdn.net/jpg/01/55/10/49/240_F_155104949_fgqEnZX0Iud2sqc7FcabLsliAaNpfHJA.jpg">
+                <div class="p-4">
+                    <h3 class="font-bold text-xl mb-2">Discover the culture of Sikkim</h3>
+                    <p class="text-gray-600">Immerse yourself in the rich traditions and stunning landscapes of the Himalayas.</p>
+                </div>
+            </div>
+            <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mb-6">
+                <img class="w-full" src="https://www.baltana.com/files/wallpapers-29/Taj-Mahal-Desktop-Wallpaper-93776.jpg">
+                <div class="p-4">
+                    <h3 class="font-bold text-xl mb-2">Mesmerizing Beauty of Taj Mahal</h3>
+                    <p class="text-gray-600">Marvel at the architectural wonder and learn about its fascinating history.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- About Us -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                <p class="text-gray-400 text-sm">
+                    We are a leading travel agency providing the best travel destinations worldwide, with personalized recommendations and unbeatable offers.
+                </p>
+            </div>
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="{{ url_for('home') }}" class="hover:text-white">Home</a></li>
+                    <li><a href="{{ url_for('contactus') }}" class="hover:text-white">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Recommendations in Footer -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Recommendations</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="{{ url_for('Attraction') }}" class="hover:text-white">Attraction</a></li>
+                    <li><a href="{{ url_for('Activities') }}" class="hover:text-white">Activities</a></li>
+                    <li><a href="{{ url_for('Dining') }}" class="hover:text-white">Dining</a></li>
+                </ul>
+            </div>
+            <!-- Contact Us -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                <p class="text-gray-400 text-sm">
+                    Email: info@travelagency.com
+                </p>
+                <p class="text-gray-400 text-sm">
+                    Phone: +123 456 789
+                </p>
+                <div class="mt-4">
+                    <a href="#" class="text-gray-400 hover:text-white mr-4">
+                        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .732.592 1.324 1.325 1.324h11.485v-9.294h-3.121v-3.621h3.121v-2.673c0-3.086 1.78-4.785 4.56-4.785 1.325 0 2.465.098 2.8.143v3.251l-1.924.001c-1.508 0-1.795.715-1.795 1.769v2.322h3.591l-.468 3.621h-3.123v9.294h6.131c.733 0 1.325-.592 1.325-1.324v-21.35c0-.733-.592-1.325-1.325-1.325z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-4">
+            <p class="text-gray-400 text-sm">© 2024 Travel Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
